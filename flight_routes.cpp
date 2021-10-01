@@ -88,7 +88,7 @@ void sssp(int n,int k, vector<vector<pair<int,int>>>& adj)
  
 void solve()
 { 
-    int n,m,k;
+     ll n,m,k;
     cin>>n>>m>>k;
     
     vector<vector<pair<int,int>>>adj(n+1,vector<pair<int,int>>());
@@ -99,7 +99,7 @@ void solve()
         cin>>a>>b>>c;
         adj[a].pb(make_pair(b,c));
     }
- 
+    // running  the single source shortest path
     sssp(n,k,adj);
  
 }
