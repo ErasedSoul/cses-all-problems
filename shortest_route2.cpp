@@ -18,7 +18,7 @@ signed main(void)
              dist[i][i] = 0;
         }
      }
- 
+ /*I am bilujjj */
      for(int i = 0;i < m;i++)
      {
          int a,b,c;
